@@ -16,6 +16,6 @@ namespace Models
         public string CPF { get; set; }
         public string MotherName {  get; set; }
         public string FatherName { get; set; }
-        public Category Category { get; set; }
+        public CNHCategory Category { get; set; }
     }
 }

@@ -9,7 +9,7 @@ namespace Models
 {
     public class PersonDTO
     {
-        [Key] public string Document { get; set; }
+        public string Document { get; set; }
         public string Name { get; set; }
         public string BirthDate { get; set; }
         public AddressDTO AddressDTO { get; set; }

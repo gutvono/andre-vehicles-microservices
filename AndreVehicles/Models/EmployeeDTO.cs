@@ -8,7 +8,6 @@ namespace Models
 {
     public class EmployeeDTO : PersonDTO
     {
-        RoleDTO RoleDTO { get; set; }
         public decimal ComissionValue { get; set; }
         public decimal Comission { get; set; }
     }

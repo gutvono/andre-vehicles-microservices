@@ -20,7 +20,7 @@ namespace AndreVehicles.Data
         public DbSet<Car> Car { get; set; } = default!;
         public DbSet<Card> Card { get; set; } = default!;
         public DbSet<CarJob> CarJob { get; set; } = default!;
-        public DbSet<Category> Category { get; set; } = default!;
+        public DbSet<CNHCategory> CNHCategory { get; set; } = default!;
         public DbSet<CNH> CNH { get; set; } = default!;
         public DbSet<Conductor> Conductor { get; set; } = default!;
         public DbSet<Customer> Customer { get; set; } = default!;

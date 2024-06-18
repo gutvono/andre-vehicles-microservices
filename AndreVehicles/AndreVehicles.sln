@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreVehicles.CustomerApi", "AndreVehicles.CustomerApi\AndreVehicles.CustomerApi.csproj", "{E8BD00C6-1186-49BC-8EB5-DC790C214DBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndreVehicles.EmployeeApi", "AndreVehicles.EmployeeApi\AndreVehicles.EmployeeApi.csproj", "{5976224E-3043-468B-A4CC-317FF8284773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreVehicles.EmployeeApi", "AndreVehicles.EmployeeApi\AndreVehicles.EmployeeApi.csproj", "{5976224E-3043-468B-A4CC-317FF8284773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndreVehicles.AddressApi", "AndreVehicles.AddressApi\AndreVehicles.AddressApi.csproj", "{AB0EDA4F-9D6D-4240-A65C-F57FBFA66C2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5976224E-3043-468B-A4CC-317FF8284773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5976224E-3043-468B-A4CC-317FF8284773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5976224E-3043-468B-A4CC-317FF8284773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0EDA4F-9D6D-4240-A65C-F57FBFA66C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0EDA4F-9D6D-4240-A65C-F57FBFA66C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0EDA4F-9D6D-4240-A65C-F57FBFA66C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0EDA4F-9D6D-4240-A65C-F57FBFA66C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
